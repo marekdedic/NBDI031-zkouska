@@ -15,7 +15,7 @@
 - [x] (ii.) Sestrojte histogramy všech numerických atributů.
 - [x] (iii.a) V případě klasifikačních dat spočtěte kovarianci a korelaci numerických vstupních atributů.
 - [ ] (iii.b) V případě regresních dat spočtěte kovarianci a korelaci mezi numerickými vstupními atributy a regresními atributy.
-- [ ] (iv.a) V případě klasifikačních dat spočtěte kovariance a korelace numerických vstupních atributů pro jednotlivé třídy (tj., kovariance a korelace podmíněné jednotlivými hodnotami klasifikačního atributu) a porovnejte je s výsledky získanými ve (ii.a).
+- [x] (iv.a) V případě klasifikačních dat spočtěte kovariance a korelace numerických vstupních atributů pro jednotlivé třídy (tj., kovariance a korelace podmíněné jednotlivými hodnotami klasifikačního atributu) a porovnejte je s výsledky získanými ve (ii.a).
 - [ ] (iv.b) V případě regresních dat proveďte analýzu rozptylu některého z regresních atributů na vstupních atributech v některém odhadnutelném lineárním modelu.
 - [ ] (v.) Proveďte faktorovou analýzu hodnot vstupních atributů se 2 faktory při ortogonální rotaci souřadných os. Zjistěte, zda lze hodnoty vstupních atributů pomocí tohoto počtu faktorů vysvětlit.
 - [ ] (vi.) Zopakujte (iv.) se 3 faktory.

@@ -4,7 +4,6 @@ using Statistics;
 using StatsBase
 
 ds = readdlm("../data.csv", '\t', Float64);
-#ds = ds[1:5, 1:5];
 
 covariance = Matrix{Float64}(undef, size(ds, 1), size(ds, 1));
 correlation = Matrix{Float64}(undef, size(ds, 1), size(ds, 1));
