@@ -11,7 +11,7 @@
 
 ## Úkol 2: popisné statistiky, faktorová analýza
 
-- [ ] (i.) Spočtěte výběrový průměr, rozptyl, standardní odchylku, šikmost a špičatost všech numerických atributů.
+- [x] (i.) Spočtěte výběrový průměr, rozptyl, standardní odchylku, šikmost a špičatost všech numerických atributů.
 - [ ] (ii.) Sestrojte histogramy všech numerických atributů.
 - [ ] (iii.a) V případě klasifikačních dat spočtěte kovarianci a korelaci numerických vstupních atributů.
 - [ ] (iii.b) V případě regresních dat spočtěte kovarianci a korelaci mezi numerickými vstupními atributy a regresními atributy.
