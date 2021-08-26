@@ -27,7 +27,7 @@ for i in 1:size(ds, 1)
 	println(attr_skewness);
 #
 	print("Kurtosis: ");
-	attr_skewness = nth_central_moment(ds[i, :], 4) / attr_variance^2; # Or kurtosis(ds[i, :])
+	attr_skewness = nth_central_moment(ds[i, :], 4) / attr_variance^2; # Or kurtosis(ds[i, :]) + 3
 	println(attr_skewness);
 #
 	println();
