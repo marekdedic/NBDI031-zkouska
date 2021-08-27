@@ -23,7 +23,7 @@
 
 ## Úkol 3: analýza hlavních komponent, shluková analýza
 
-- [ ] (i.) Najděte první 3 hlavní komponenty dat numerických vstupních atributů a vyjádření těchto dat v nich.
+- [x] (i.) Najděte první 3 hlavní komponenty dat numerických vstupních atributů a vyjádření těchto dat v nich.
 - [ ] (ii.) Zopakujte (i.) po normalizaci vstupních proměnných na jednotkový rozptyl a porovnejte podíl celkového rozptylu, který odpovídá prvním 3 hlavním komponentám.
 - [ ] (iii.) Znázorněte graficky vyjádření původních souřadnic a původních dat pomocí hlavních komponent nalezených v (i.) a (ii.).
 - [ ] (iv.) Pro jednoduché spojení shluků a 2 vhodně zvolené vzdálenosti použitelné i pro shlukování na základě centroidů (k-means) proveďte hierarchickou shlukovou analýzu dat vstupních atributů.
