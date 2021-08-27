@@ -5,7 +5,6 @@ using Statistics;
 using StatsBase;
 
 ds = readdlm("../data.csv", '\t', Float64);
-#y = parse.(Int, readlines("../labels.csv"));
 
 covariance = cov(ds; dims = 2, corrected = false);
 
