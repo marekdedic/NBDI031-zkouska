@@ -1,4 +1,4 @@
-x = readtable('../data.csv');
-y = readtable('../labels.csv');
+x = readmatrix('../data.csv');
+y = readmatrix('../labels.csv').';
 
 save("ds.mat", "x", "y");
