@@ -34,7 +34,7 @@
 
 ## Úkol 4: testování hypotéz
 
-- [ ] (i.a) V případě klasifikačních dat otestujte pro každý z numerických vstupních atributů, že jeho rozdělení pravděpodobnosti je shodné pro všechny třídy.
+- [x] (i.a) V případě klasifikačních dat otestujte pro každý z numerických vstupních atributů, že jeho rozdělení pravděpodobnosti je shodné pro všechny třídy.
 - [ ] (i.b) V případě regresních dat otestujte pro každý z numerických vstupních atributů a některý z regresních atributů hypotézu, že rozdělení pravděpodobnosti vstupních atributů je shodné pro nadprůměrné i podprůměrné hodnoty tohoto regresního atributu.
 - [x] (ii.) Empirické distribuční funkce používané v (i.) znázorněte graficky.
 - [ ] (iii.) S použitím binomického testu, naprogramujte kvantifikátory dolní kritická implikace a dolní kritická ekvivalence systému 4ft-Miner.
