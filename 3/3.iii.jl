@@ -21,7 +21,7 @@ principals = eigendecomposition.vectors[end:-1:end - 2, :];
 
 in_principals = principals * ds;
 
-plt = plot(in_principals[1, y .== 0], in_principals[2, y .== 0], in_principals[3, y .== 0], seriestype = :scatter, markersize = 1, label = "Negative", size = (800, 800));
+plt = plot(in_principals[1, y .== 0], in_principals[2, y .== 0], in_principals[3, y .== 0], seriestype = :scatter, markersize = 1, label = "Negative", size = (1500, 800));
 plot!(plt, in_principals[1, y .== 1], in_principals[2, y .== 1], in_principals[3, y .== 1], seriestype = :scatter, markersize = 1, label = "Positive");
 display(plt);
 

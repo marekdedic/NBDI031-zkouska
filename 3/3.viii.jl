@@ -24,13 +24,13 @@ centroid_clusters = centroid.assignments;
 M = fit(PCA, ds, maxoutdim = 3);
 in_pca = transform(M, ds);
 
-hac_plt = plot(title = "HAC", legend = false, size = (800, 800));
+hac_plt = plot(title = "HAC", legend = false, size = (1500, 800));
 for i in 1:20
 	plot!(hac_plt, in_pca[1, hac_clusters .== i], in_pca[2, hac_clusters .== i], in_pca[3, hac_clusters .== i], seriestype = :scatter, markersize = 1);
 end
 display(hac_plt);
 
-centroid_plt = plot(title = "K-means", legend = false, size = (800, 800));
+centroid_plt = plot(title = "K-means", legend = false, size = (1500, 800));
 for i in 1:20
 	plot!(centroid_plt, in_pca[1, centroid_clusters .== i], in_pca[2, centroid_clusters .== i], in_pca[3, centroid_clusters .== i], seriestype = :scatter, markersize = 1);
 end
