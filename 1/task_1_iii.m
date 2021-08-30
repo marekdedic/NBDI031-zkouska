@@ -1,4 +1,4 @@
-load("ds.mat")
+load("../ds.mat")
 
 means = mean(x, 2);
 
