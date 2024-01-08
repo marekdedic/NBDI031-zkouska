@@ -29,7 +29,7 @@
 - [x] (iv.) Pro jednoduché spojení shluků a 2 vhodně zvolené vzdálenosti použitelné i pro shlukování na základě centroidů (k-means) proveďte hierarchickou shlukovou analýzu dat vstupních atributů.
 - [x] (v.) Výsledky (iv.) znázorněte pomocí dendrogramů.
 - [x] (vi.) Pro vzdálenost vedoucí k vyšší korelaci mezi délkou spojení shluků a vzdáleností dat rozdělte na základě výsledků (iv) data vstupních atributů do vhodně zvoleného počtu shluků.
-- [~] (vii.) Do téhož počtu shluků rozdělte při použití téže vzdálenosti data vstupních atributů shlukováním na základě centroidů.
+- [x] (vii.) Do téhož počtu shluků rozdělte při použití téže vzdálenosti data vstupních atributů shlukováním na základě centroidů.
 - [x] (viii.) Shluky získané oběma metodami znázorněte graficky.
 
 ## Úkol 4: testování hypotéz

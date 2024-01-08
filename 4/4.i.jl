@@ -24,5 +24,5 @@ for i in 1:size(ds, 1)
 	println(level);
 	println();
 
-	# println(ApproximateTwoSampleKSTest(negative, positive));
+	println(ApproximateTwoSampleKSTest(negative, positive));
 end
